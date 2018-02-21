@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='torchloader',
     packages=['torchloader'],
-    version='0.1',
+    version='0.2',
     description='A PyTorch style dataloader that can be used anywhere',
     author='Matt Le',
     author_email='lematt1991@gmail.com',
