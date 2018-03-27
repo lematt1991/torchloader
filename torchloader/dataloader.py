@@ -2,7 +2,7 @@
 #   https://github.com/pytorch/pytorch/blob/master/torch/utils/data/dataloader.py
 # Modifed by: Matt Le
 
-from sampler import SequentialSampler, RandomSampler, BatchSampler
+from .sampler import SequentialSampler, RandomSampler, BatchSampler
 import signal, functools, collections, re, sys, traceback, threading, multiprocessing
 import numpy as np
 
